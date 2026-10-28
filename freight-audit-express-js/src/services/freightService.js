@@ -1,9 +1,11 @@
+'use strict';
+
 /**
- * Mock data based on the four example cards in the Audit Controls screenshot.
- * Replace ONLY this provider with an approved Power BI data adapter later.
- * Values are NOT live, actual, or representative of company performance.
+ * SAMPLE DATA ONLY, transcribed from the Audit Controls demo screenshot.
+ * This is not a Power BI integration or a real freight KPI calculation.
+ * A real adapter can replace this function without changing the API contract.
  */
-export function getFreightAuditKpis(now = new Date()) {
+function getFreightAuditKpis(now = new Date()) {
   return {
     dashboard: 'freight-audit-controls',
     source: 'mock',
@@ -44,3 +46,5 @@ export function getFreightAuditKpis(now = new Date()) {
     }
   };
 }
+
+module.exports = { getFreightAuditKpis };
