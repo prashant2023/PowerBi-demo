@@ -1,0 +1,14 @@
+{
+  "name": "powerbi-kpi-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "test": "node --test server/tests/*.test.mjs"
+  }
+}

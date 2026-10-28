@@ -1,0 +1,123 @@
+{
+  "source": "mock",
+  "period": "30d",
+  "generatedAt": "2026-10-26T10:00:00.000Z",
+  "range": {
+    "start": "2026-09-27",
+    "end": "2026-10-26"
+  },
+  "metrics": {
+    "afc": {
+      "value": 9024,
+      "change": -1.5
+    },
+    "sfc": {
+      "value": 6012,
+      "change": -1.4
+    },
+    "loads": {
+      "value": 15146,
+      "change": -1.4
+    },
+    "cases": {
+      "value": 91245,
+      "change": -1.9
+    }
+  },
+  "trend": [
+    {
+      "date": "2026-10-01",
+      "label": "Sep 27",
+      "afc": 1373,
+      "sfc": 918,
+      "loads": 2308,
+      "cases": 14122
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Oct 2",
+      "afc": 1429,
+      "sfc": 954,
+      "loads": 2404,
+      "cases": 14262
+    },
+    {
+      "date": "2026-10-11",
+      "label": "Oct 7",
+      "afc": 1495,
+      "sfc": 989,
+      "loads": 2499,
+      "cases": 15188
+    },
+    {
+      "date": "2026-10-16",
+      "label": "Oct 12",
+      "afc": 1563,
+      "sfc": 1047,
+      "loads": 2623,
+      "cases": 16169
+    },
+    {
+      "date": "2026-10-21",
+      "label": "Oct 17",
+      "afc": 1551,
+      "sfc": 1038,
+      "loads": 2612,
+      "cases": 15805
+    },
+    {
+      "date": "2026-10-26",
+      "label": "Oct 22",
+      "afc": 1613,
+      "sfc": 1066,
+      "loads": 2700,
+      "cases": 15699
+    }
+  ],
+  "recent": [
+    {
+      "date": "2026-10-26",
+      "afc": 329,
+      "sfc": 221,
+      "loads": 567,
+      "cases": 3005
+    },
+    {
+      "date": "2026-10-25",
+      "afc": 232,
+      "sfc": 156,
+      "loads": 394,
+      "cases": 2183
+    },
+    {
+      "date": "2026-10-24",
+      "afc": 284,
+      "sfc": 192,
+      "loads": 476,
+      "cases": 2751
+    },
+    {
+      "date": "2026-10-23",
+      "afc": 368,
+      "sfc": 238,
+      "loads": 610,
+      "cases": 3672
+    },
+    {
+      "date": "2026-10-22",
+      "afc": 400,
+      "sfc": 259,
+      "loads": 653,
+      "cases": 4088
+    },
+    {
+      "date": "2026-10-21",
+      "afc": 370,
+      "sfc": 258,
+      "loads": 638,
+      "cases": 4147
+    }
+  ],
+  "daysWithData": 30,
+  "expectedDays": 30
+}
