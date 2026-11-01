@@ -1,0 +1,19 @@
+{
+  "name": "freight-audit-powerbi-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express.js API contracts matching the Freight Audit Controls Report Definitions & Field Mapping, with mock and Power BI adapters",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/index.js && node --check src/app.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@azure/msal-node": "^3.8.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
